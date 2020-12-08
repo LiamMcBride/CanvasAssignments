@@ -15,8 +15,19 @@ def DMY(time):
     return(int(month), int(day), int(year))
 
 def TodayValue(year, month, day):
-    test = str(year)
-    temp = test[2:] + str(month) + str(day)
+    yr = str(year)
+    mn = str(month)
+    dy = str(day)
+   
+    if(len(mn) < 2):
+        mn = '0' + mn
+    if(len(dy) < 2):
+        
+        dy = '0' + dy
+    
+
+
+    temp = yr[2:] + str(mn) + str(dy)
         
     temp = int(temp)
     
