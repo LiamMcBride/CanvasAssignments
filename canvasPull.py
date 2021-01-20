@@ -15,19 +15,8 @@ def DMY(time):
     return(int(month), int(day), int(year))
 
 def TodayValue(year, month, day):
-    yr = str(year)
-    mn = str(month)
-    dy = str(day)
-   
-    if(len(mn) < 2):
-        mn = '0' + mn
-    if(len(dy) < 2):
-        
-        dy = '0' + dy
-    
-
-
-    temp = yr[2:] + str(mn) + str(dy)
+    test = str(year)
+    temp = test[2:] + str(month) + str(day)
         
     temp = int(temp)
     
@@ -61,9 +50,9 @@ def sortDate(assignments):
 
 URL = "https://canvas.vt.edu/"
 
-KEY = "User Password"
+KEY = "Joimarie5302"
 
-TOKEN = "Put Token Here"
+TOKEN = "4511~brX8DDeJfqE4lK77HHrzfPLu0bj0kEARSTZILbYrhXrJXLOF3kpVRBpHEoioDq6D"
 
 canvas = Canvas(URL, TOKEN)
 
