@@ -50,9 +50,9 @@ def sortDate(assignments):
 
 URL = "https://canvas.vt.edu/"
 
-KEY = "Joimarie5302"
+KEY = "password"
 
-TOKEN = "4511~brX8DDeJfqE4lK77HHrzfPLu0bj0kEARSTZILbYrhXrJXLOF3kpVRBpHEoioDq6D"
+TOKEN = "Token"
 
 canvas = Canvas(URL, TOKEN)
 
